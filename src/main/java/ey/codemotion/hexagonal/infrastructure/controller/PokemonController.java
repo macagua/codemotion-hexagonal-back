@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@RequestMapping("/pokemons")
+@RequestMapping("/api")
 @Tag(name = "Pokemons", description = "API for Pokemons")
 public class PokemonController {
 
@@ -19,13 +19,13 @@ public class PokemonController {
         this.getPokemonQuery = getPokemonQuery;
     }
 
-    @GetMapping
+    @GetMapping("/pokemons")
     @Operation(summary = "Get all Pokemons", description = "Returns a list of all Pokemons")
     public List<Pokemon> getAllPokemons() {
         return getPokemonQuery.getAllPokemons();
     }
 
-    @GetMapping("/{id}")
+    @GetMapping("/pokemon/{id}")
     @Operation(summary = "Get Pokemon by ID", description = "Returns a Pokemon by their ID")
     public Pokemon getPokemonById(@PathVariable String id) {
         return getPokemonQuery.getPokemonById(id);
