@@ -57,11 +57,11 @@ To testing the Pokemon API, with the following commands:
 ### All Pokemon records
 
 ```
-curl http://localhost:8081/api/pokemons
+curl -X GET http://localhost:8081/api/pokemons
 ```
 
 ### Information about a Pokemon
 
 ```
-curl http://localhost:8081/api/pokemon/cel25-7
+curl -X GET http://localhost:8081/api/pokemon/cel25-7
 ```
