@@ -44,10 +44,10 @@ This repository contains at least two APIs, which I describe below:
 
 ### Pokemon API
 
-``/apt/pokemons``
+``/api/pokemons``
 - Obtains all Pokemon records
 
-``/apt/pokemon/{id}``
+``/api/pokemon/{id}``
 - Obtains the information of a Pokemon
 
 ## Testing
