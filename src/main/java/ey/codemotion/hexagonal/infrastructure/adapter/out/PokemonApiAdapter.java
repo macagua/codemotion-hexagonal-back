@@ -38,6 +38,7 @@ public class PokemonApiAdapter implements LoadPokemonPort {
         }
     }
 
+    @Override
     public Pokemon loadPokemonById(String id) {
         try {
             String response = restTemplate.getForObject(apiUrl + "/" + id, String.class);

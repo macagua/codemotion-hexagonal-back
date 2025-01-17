@@ -1,7 +1,7 @@
 package ey.codemotion.hexagonal.domain.model;
 
 import lombok.Data;
-import java.util.List;
+// import java.util.List;
 
 @Data
 public class Pokemon {
