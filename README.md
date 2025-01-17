@@ -1,5 +1,12 @@
 # codemotion-hexagonal-backend
 
+The Hexagonal Application Backend repo for the "EY Hexagonal Architecture"
+workshop in the Codemotion Meet Madrid on 01/16/2025.
+
+<a href="https://community.codemotion.com/codemotion-espana/meetups/codemeet-workshop-diseo-hexagonal-para-una-integracin-gil-entre-backend-y-frontend" title="CodeMeet Workshop: Diseño Hexagonal para una Integración Ágil entre Backend y Frontend">
+  <img src="docs/images/event-cover.png" alt="The Hexagonal Architecture" width="400" height="256" />
+</a>
+
 ## Pre requirements
 
 - ``curl`` command or [Postman](https://www.postman.com/) software.
