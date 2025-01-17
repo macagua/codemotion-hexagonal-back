@@ -32,33 +32,35 @@ docker-compose up -d
 
 ## APIs
 
+This repository contains at least two APIs, which I describe below:
+
 ### Rick And Morty Character API
 
 ``/character``
-- Obtiene todos los personajes de Rick y Morty
+- Obtains all Rick and Morty characters.
 
 ``/character/{id}``
-- Obtiene la información especifica de un personaje de Rick y Morty
+- Gets the information of a Rick and Morty character.
 
 ### Pokemon API
 
 ``/apt/pokemons``
-- Obtiene todos los registros de Pokemons
+- Obtains all Pokemon records
 
 ``/apt/pokemon/{id}``
-- Obtiene la información de un Pokemon
+- Obtains the information of a Pokemon
 
 ## Testing
 
 To testing the Pokemon API, with the following commands:
 
-### Todos los registros de Pokemons
+### All Pokemon records
 
 ```
 curl http://localhost:8081/api/pokemons
 ```
 
-### Información de un Pokemon
+### Information about a Pokemon
 
 ```
 curl http://localhost:8081/api/pokemon/cel25-7
