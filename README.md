@@ -5,7 +5,7 @@
 ## Pokemon API
 
 ``/apt/pokemons``
-    Obtiene todos los registros de pokemons
+- Obtiene todos los registros de Pokemons
 
 ``/apt/pokemon/{id}``
-    Obtiene la información genérica de un pokemon
+- Obtiene la información especifica de un Pokemon
