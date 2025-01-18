@@ -7,6 +7,12 @@ workshop in the Codemotion Meet Madrid on 01/16/2025.
   <img src="docs/images/event-cover.png" alt="The Hexagonal Architecture" width="400" height="256" />
 </a>
 
+## Workshop Purpose
+
+The workshop product was to add support to the [Pokemon API](https://pokemontcg.io/) in this repository, as shown in the following screenshot:
+
+<img src="docs/images/product_result_of_the_workshop.gif" alt="The Product Result of the Workshop" width="400" height="256" />
+
 ## Pre requirements
 
 - ``curl`` command or [Postman](https://www.postman.com/) software.
